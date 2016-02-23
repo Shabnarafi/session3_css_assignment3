@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<title>session3_assignmnt3</title>
+<style>
+
+div{
+	width: 40%;
+	margin: 0 auto;
+	border-radius: 2px;
+	color: white;
+	padding: 10px;
+	background-image: url('http://pre13.deviantart.net/f656/th/pre/f/2013/122/b/5/light_blue_background_with_bubbles_by_nekokiseki-d63rrja.jpg');
+
+}
+th{
+	color: white;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+table{
+	
+	width: 80%
+	position: relative;
+	margin: 0 auto;
+	
+}
+td{
+	color: black;
+	padding: 10px;
+	border-radius: 3px;
+	opacity: 0.8;
+	border: 1px solid white;
+	background-color: seashell;
+	
+	
+	
+}
+input{
+	background-color: splashed white;
+	border-radius: 2px;
+
+}
+</style>
+<body>
+<div>Step1: Your Details<br>
+<table>
+<tr>
+	<td style="width:100px;">Name</td><td style="width:300px;"><input type="text" placeholder="First and Last Name" width="200" height="50" /></td>
+</tr>
+<tr>
+	<td>Email</td><td><input type="email" placeholder="example@domain.com" width="200" height="100" /></td>
+</tr>
+<tr>
+	<td>Phone</td><td><input type="text" placeholder="eg: 91-9447014150" width="200" height="100" /></td>
+</tr>
+</table>
+</div>
+<div>Step2: Delivery Address:<br>
+<table>
+<tr>
+	<td style="width:100px;">Address</td><td style="width:300px;"><textarea cols="23" rows="5"></textarea></td>
+</tr>
+<tr>
+	<td>Post code</td><td><input type="text" width="200" height="100" /></td>
+</tr>
+<tr>
+	<td>Country</td><td><input type="text" width="200" height="100" /></td>
+</tr>
+</table>
+</div>
+<div>Step3: Card Details<br>
+<table>
+<tr>
+	<td>Card Type</td>
+	<td><input type="radio" name="cardtype"/><img src="data:image/png;base64,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" width="10px" height="10px"/>VISA  <input type="radio" name="cardtype"/><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShUm88ItmDy0ZiFm46L14XULa2HRhIta17xYObFPvrH2CcGCbx" width="10px" height="10px"/>AMEX <input type="radio" name="cardtype"/><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTbLfcBxoQsRJX8emznfKAgTbqHwrK4TPiL7Ul7_vAbWtrtFXmZqw" width="10px" height="10px"/>MasterCard
+	</td>
+</tr>
+<tr>
+	<td>Card Number</td><td style="width:300px;"><input type="text" width="200" height="100" /</td>
+</tr>
+<tr>
+	<td>Security code</td><td><input type="text" width="200" height="100" /></td>
+</tr>
+<tr>
+	<td>Name On Card</td><td><input type="text" placeholder="exact name as on the card" width="200" height="100" /></td>
+</tr>
+</table>
+</div>
+</body>
+</head>
+</html>
